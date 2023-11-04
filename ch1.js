@@ -1,3 +1,5 @@
+// Challege N1: Count words
+
 async function getData() {
   const res = await fetch("https://codember.dev/data/message_01.txt");
   const data = await res.text();
